@@ -11,4 +11,4 @@ A --- B --- C (main)
        D --- E (feature)                         A --- B --- C --- D' --- E' (feature)
 
 5. git checkout <hash> is used to detach head from branch and add to the commit hash
-6. Git stash temporarily saves your uncommitted changes without committing them (use git stash pop is used to get back that saved progress )
+6. Git stash temporarily saves your uncommitted changes without committing them (use git stash pop is used to get back that saved progress)
