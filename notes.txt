@@ -1,0 +1,14 @@
+production standard practices ---
+
+1. after merging branch clean up as delete branches made -> git branch -d <name>
+2. git pull is not feasible as it is combination of git fetch + merge
+3. use git reset/revert to undo the commits (never use reset --hard)
+4. use git rebase to make parallel to sequential (cleaner history , no unnecessary merge commits)
+
+
+A --- B --- C (main)
+      \
+       D --- E (feature)                         A --- B --- C --- D' --- E' (feature)
+
+5. git checkout <hash> is used to detach head from branch and add to the commit hash
+6. Git stash temporarily saves your uncommitted changes without committing them (use git stash pop is used to get back that saved progress )
