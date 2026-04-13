@@ -1,1 +1,1 @@
-This is final resolution of merge conflicts
+This is conflict solution
